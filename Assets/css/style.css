@@ -6,7 +6,7 @@
   
   body{
     
-    background:linear-gradient(rgb(50, 41, 53),rgb(24, 12, 16));
+    background-color: #cbddf8;
     margin: 0;
   
   }
@@ -49,7 +49,7 @@
   }
   
   .spacer{
-    height: 30px;
+    height: 100px;
     flex: auto;
     border: dashed rgb(1, 1, 20);
     
@@ -61,28 +61,30 @@
     background-color: #0072bb;
     color: #ffffff;
     flex-direction: row;
-  
-  }
-  .AboutMe h2{
-    flex-direction: row;
-  }
-  .AboutMe p {
-  align-items: center;
-  justify-content: space-around;
     
   
   }
-  
-  
-  
-  
-  .me {
-    margin-bottom: -40px;
-    background-position: center;
-  margin-left: 20px;
-  width: 40px;
-  height: 40px;
+  .AboutMe h2{
+    
   }
+  .AboutMe p {
+  
+  
+    }
+
+
+    
+  
+  .me img{
+    width 80px;
+    height: 800px;
+    align-items: center;
+    border: 5px solid turquoise;
+    padding: 5px;
+  }
+  
+  
+  
   
   
   
@@ -94,21 +96,20 @@
     margin-bottom: 32px;
     color: #faf3f3;
     margin: auto;
-    flex-direction: row;
+    justify-content: right;
     
   }
   
   .pics-header2 {
     margin-bottom: 32px;
     color: #faf3f3;
-    flex-direction: row;
+    
     
   }
 
   .pics-header3 {
     margin-bottom: 32px;
     color: #faf3f3;
-    flex-direction: row;
     
   }
   
@@ -116,12 +117,20 @@
   
   .pics-header1 img {
       max-width: 200px;
+      float: right;
+      border: 5px solid turquoise;
+      padding: 5px;
     }
     .pics-header2 img {
       max-width: 200px;
+      border: 5px solid turquoise;
+      padding: 5px;
     }
     .pics-header3 img {
       max-width: 200px;
+      float: center;
+      border: 5px solid turquoise;
+      padding: 5px;
     }
   
   
@@ -130,6 +139,7 @@
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #ffffff;
   }
   
   .footer h2 {
