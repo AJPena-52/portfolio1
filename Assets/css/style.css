@@ -6,7 +6,7 @@
   
   body{
     
-    background-color: #cbddf8;
+    background-color: #dde2e9;
     margin: 0;
   
   }
@@ -55,20 +55,30 @@
     
   }
   .AboutMe{
-    margin: auto;
-    padding: 40px;
+  display: flex;
+  width: 90%;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
     flex-direction: row;
-    
+    height:auto;
   
   }
   .AboutMe h2{
-    
+    display: inline;
+    float: left;
+    border-right:solid turquoise;
+  margin-right:3VW;
+  height:auto;
+  background-color: violet;
+  align-self: center;
+  width: 40%;
   }
   .AboutMe p {
   
+  background-color: purple;
+  width: 100%;
   
     }
 
@@ -76,14 +86,21 @@
     
   
   .me img{
-    width 80px;
+  
     height: 800px;
-    align-items: center;
     border: 5px solid turquoise;
     padding: 5px;
+    position: relative;
+    text-align: center;
+    color:white;
   }
   
-  
+  .bottom-left{
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+    
+  }
   
   
   
@@ -113,21 +130,49 @@
     
   }
   
-  
-  
+  .img-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .flex-item{
+    display: inline;
+    align-items: flex-end;
+
+  }
+  .row{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+
+  }
+  .resize{
+    height: 5vh;
+    padding: 0;
+  }
+  h3#pics{
+    padding: 0;
+  }
   .pics-header1 img {
-      max-width: 200px;
+     width: 100%;
+     max-width: 200px;
+     height: auto;
       float: right;
       border: 5px solid turquoise;
       padding: 5px;
     }
     .pics-header2 img {
+      width: 100%;
       max-width: 200px;
+      height: auto;
       border: 5px solid turquoise;
       padding: 5px;
     }
     .pics-header3 img {
-      max-width: 200px;
+      width: 100%;
+     max-width: 200px;
+     height: auto;
       float: center;
       border: 5px solid turquoise;
       padding: 5px;
@@ -146,3 +191,11 @@
     font-size: 20px;
   }
   
+  
+  
+   
+
+  @media screen and (max-width: 400px)
+  {body{
+    width: fit-content;
+      }}
