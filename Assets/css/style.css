@@ -1,6 +1,6 @@
 * {
   
-    padding: 20px;
+    padding: 25px;
   
   }
   
@@ -32,6 +32,7 @@
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: inline-flex;
   }
   
   
@@ -57,12 +58,11 @@
   .AboutMe{
   display: flex;
   width: 90%;
-    
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #319bc5;
     color: #ffffff;
     flex-direction: row;
-    height:auto;
+    height:vh;
   
   }
   .AboutMe h2{
@@ -71,20 +71,27 @@
     border-right:solid turquoise;
   margin-right:3VW;
   height:auto;
-  background-color: violet;
+  
   align-self: center;
   width: 40%;
   }
   .AboutMe p {
-  
-  background-color: purple;
   width: 100%;
-  
+  height:auto
     }
 
+.Work{
+  color: #ffffff;
+  border-right:solid turquoise;
+  float: left;
+  background-color: #319bc5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
     
-  
+  h3{
+    color: black;
+  }
   .me img{
   
     height: 800px;
@@ -184,7 +191,7 @@
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: #ffffff;
+    color: #070000;
   }
   
   .footer h2 {
@@ -195,7 +202,10 @@
   
    
 
-  @media screen and (max-width: 400px)
-  {body{
-    width: fit-content;
+  @media screen and (max-width: 1400px)
+  {.header {
+  display: inline-block;
+  flex-wrap: wrap;
+  
+  
       }}
