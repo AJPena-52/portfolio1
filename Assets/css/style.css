@@ -204,8 +204,10 @@
 
   @media screen and (max-width: 1400px)
   {.header {
-  display: inline-block;
-  flex-wrap: wrap;
+  display:flex;
+  flex-direction: row;
+  display: inline-flex;
+
   
   
       }}
